@@ -1,0 +1,18 @@
+{
+  "name": "reactjs-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx babel --watch src --out-dir public\\src --presets react-app/prod",
+    "httpserver": "live-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "live-server": "^1.2.1"
+  }
+}
